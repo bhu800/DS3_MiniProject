@@ -27,4 +27,4 @@ for i in range(1,16,1):
     pca_df=pd.DataFrame(x)
     converted_df=pd.concat([pca_df,df['Class']],axis=1)
     str1=str("pca_df_reduced_to"+str(i)+"dimensions"+".csv")
-    converted_df.to_csv(str1)
+    converted_df.to_csv(str1,index=False)

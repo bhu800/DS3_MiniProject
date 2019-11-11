@@ -20,7 +20,7 @@ print(ROOT_DIR)
 #Saving the original csv file to origial data directory 
 original_data_dir=os.path.join(ROOT_DIR,'Original')
 
-df.to_csv(os.path.join(original_data_dir,'original_data.csv'))
+df.to_csv(os.path.join(original_data_dir,'original_data.csv'),index=False)
 
 
 #%%
@@ -43,7 +43,7 @@ standardised_df.columns=col
 
 #saved it to the Standardised directory
 standardised_dir=os.path.join(ROOT_DIR,'Standardised')
-standardised_df.to_csv(os.path.join(standardised_dir,'standardised_data.csv'))
+standardised_df.to_csv(os.path.join(standardised_dir,'standardised_data.csv'),index=False)
 
 #%%
 
@@ -66,7 +66,7 @@ normalised_df.columns=col
 
 #saved it to the Normalised directory
 normalised_dir=os.path.join(ROOT_DIR,'Normalised')
-normalised_df.to_csv(os.path.join(normalised_dir,'normalised_data.csv'))
+normalised_df.to_csv(os.path.join(normalised_dir,'normalised_data.csv'),index=False)
 
 
 
