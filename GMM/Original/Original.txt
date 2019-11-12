@@ -1,0 +1,16 @@
+original_data 0.9689855072463768 1
+pca_df_reduced_to10dimensions 0.9434782608695652 9
+pca_df_reduced_to11dimensions 0.9788405797101449 9
+pca_df_reduced_to12dimensions 0.9692753623188406 1
+pca_df_reduced_to13dimensions 0.9318840579710145 6
+pca_df_reduced_to14dimensions 0.9669565217391304 1
+pca_df_reduced_to15dimensions 0.9637681159420289 1
+pca_df_reduced_to1dimensions 1.0 2
+pca_df_reduced_to2dimensions 1.0 9
+pca_df_reduced_to3dimensions 1.0 8
+pca_df_reduced_to4dimensions 0.9947826086956522 9
+pca_df_reduced_to5dimensions 0.9965217391304347 5
+pca_df_reduced_to6dimensions 0.8736231884057971 5
+pca_df_reduced_to7dimensions 0.9344927536231884 4
+pca_df_reduced_to8dimensions 0.8527536231884058 1
+pca_df_reduced_to9dimensions 0.9605797101449275 9
